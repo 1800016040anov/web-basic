@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title> form tugas 2</title>
+ </head>
+
+  <body> 
+<FORM ACTION ="Mhs.php" method="POST"> 
+NIM : <INPUT TYPE=TEXT NAME="NIM"> <BR> 
+<BR> Nama : <INPUT TYPE=TEXT NAME="NAMA"> <BR> 
+<BR> Jenis Kelamin : <BR> 
+<INPUT TYPE=RADIO NAME="KELAMIN" VALUE="L"> Laki-laki <BR> 
+<INPUT TYPE=RADIO NAME="KELAMIN" VALUE="P"> Perempuan <BR> 
+Alamat : <BR> <TEXTAREA NAME="ALAMAT" ROWS=2 COLS=50> </TEXTAREA>
+ <BR> Program Studi : <SELECT NAME="PRODI" > 
+<OPTION VALUE="FISIKA">FISIKA 
+<OPTION VALUE="BIOLOGI">BIOLOGI 
+<OPTION VALUE="MATEMATIKA">MATEMATIKA 
+<OPTION VALUE="SISTEM INFORMASI">SISTEM INFORMASI </SELECT> <BR> 
+Bahasa Pemrograman yang dikuasai : <BR>
+<INPUT TYPE=CHECKBOX NAME="prog[]" VALUE="PASCAL/DELPHI"> PASCAL/DELPHI <BR>
+<INPUT TYPE=CHECKBOX NAME="prog[]" VALUE="C/C++"> C/C++ <BR>
+<INPUT TYPE=CHECKBOX NAME="prog[]" VALUE="VISUAL BASIC"> Visual Basic <BR>
+<p><input type="submit" name="submit" class="btn btn-info" value="Submit" /></p><BR>
+</FORM> 
+</body> 
+</html> 
